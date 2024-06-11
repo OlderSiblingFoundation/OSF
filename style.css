@@ -1,0 +1,209 @@
+@import url('https://fonts.googleapis.com/css2?family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap');
+
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Vollkorn";
+}
+
+html {
+ 
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background-color: #FF7F50;
+  width: 100%;
+  height: 100%;
+}
+
+#container {
+  width: 100%;
+  height: 100%;
+}
+
+#sidebar {
+  background-color: #0077B6;
+  width: 30%;
+  height: 100%;
+  float: left;
+  box-shadow: inset -10px 0 10px -5px #FF7F50;
+}
+
+footer {
+  margin-top: 60%;
+  margin-left: 7px;
+  margin-right: 7px;
+}
+
+a {
+  color: #FF7F50;
+  text-decoration: none;
+  font-size: 4rem;
+}
+
+h1 {
+  font-size: 4rem;
+}
+
+h3 {
+  font-size: xx-large;
+}
+
+a:hover {
+  color: #F08080;
+}
+
+#links {
+  margin: 10%;
+}
+
+#link {
+  margin-bottom: 10%;
+}
+
+p {
+  font-size: x-large;
+}
+
+#box {
+  padding-left: 4%;
+  margin-right: 10%;
+  padding-top: 1rem;
+}
+
+#small-logo {
+  display: none;
+}
+
+#otherFooter {
+  display: none;
+}
+
+@media only screen and (max-width: 2500px) {
+
+  #small-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  #large-logo {
+    display: none;
+  }
+
+}
+
+
+@media only screen and (max-width: 1024px) {
+  
+  #container {
+    flex-direction: column;
+  }
+
+  #sidebar {
+    width: 100%;
+    height: 35rem;
+    float: none;
+    box-shadow: inset 0 -10px 10px -5px #FF7F50;
+  }
+
+  #box {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 3rem;
+    padding-bottom: 5%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  a {
+    color: #FF7F50;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: xx-large;
+  }
+  p {
+    font-size: medium;
+  }
+  #small-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  #large-logo {
+    display: none;
+  }
+  #links {
+    text-align: center;
+  }
+  #otherFooter {
+    padding-top: 2rem;
+    display: block;
+    font-size: smaller;
+    margin: 0 4%;
+  }
+}
+
+
+@media only screen and (max-width: 768px) {
+  
+  #container {
+    flex-direction: column;
+  }
+
+  #sidebar {
+    width: 100%;
+    height: 25rem;
+    float: none;
+    box-shadow: inset 0 -10px 10px -5px #FF7F50;
+  }
+
+  #box {
+    margin-left: 4%;
+    margin-right: 4%;
+    padding-top: 3rem;
+    padding-bottom: 5%;
+  }
+
+  footer {
+    display: none;
+  }
+
+  h1 {
+    font-size: 3rem;
+  }
+  a {
+    color: #FF7F50;
+    text-decoration: none;
+    font-size: 3rem;
+  }
+  h3 {
+    font-size: xx-large;
+  }
+  p {
+    font-size: medium;
+  }
+  #small-logo {
+    display: block;
+    margin: 0 auto;
+  }
+  #large-logo {
+    display: none;
+  }
+  #links {
+    text-align: center;
+  }
+  #otherFooter {
+    padding-top: 2rem;
+    display: block;
+    font-size: smaller;
+    margin: 0 4%;
+  }
+}
